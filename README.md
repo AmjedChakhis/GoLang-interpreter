@@ -43,15 +43,15 @@ GBI (Go Based Interpreter) is an interpreter built using GoLang, featuring a lex
 
 ## GBI Documentation
 
-### Variables
+### 1-Variables
 
-#### Supported Data Types
+#### a-Supported Data Types
 - **Integers**
 - **Booleans**
 - **Strings**
 - **Undefined**
 
-#### Defining Variables
+#### b-Defining Variables
 
 - **Syntax**:
   ```
@@ -64,19 +64,19 @@ GBI (Go Based Interpreter) is an interpreter built using GoLang, featuring a lex
   def c = "hello"; # String
   ```
 
-### Functions
+### 2-Functions
 
-#### Syntax
+#### a-Syntax
 ```
 function <function_name>(<arguments>) { <function_body> ;}
 ```
 
-#### Example
+#### b-Example
 ```
 function add(a, b) { return a + b ;}
 ```
 
-#### Calling Functions
+#### c-Calling Functions
 - **Syntax**:
   ```
   <function_name>(<arguments>);
@@ -86,21 +86,19 @@ function add(a, b) { return a + b ;}
   add(10, 20);
   ```
 
-### If Statements
+### 3-If Statements
 
-#### Syntax
+#### a-Syntax
 ```
 if (<condition>) { <body> ;} else { <else_body> ;}
 ```
 
-#### Example
+#### b-Example
 ```
 if (a == 10) { return true ;} else { return false ;}
 ```
 
-### Loops
-
-#### For Loops
+### 4-Loops
 
 - **Syntax**:
   ```
