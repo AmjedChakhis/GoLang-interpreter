@@ -55,13 +55,13 @@ GBI (Go Based Interpreter) is an interpreter built using GoLang, featuring a lex
 
 - **Syntax**:
   ```
-  def <variable_name> = <value>
+  def <variable_name> = <value>;
   ```
 - **Examples**:
   ```
-  def a = 10        # Integer
-  def b = true      # Boolean
-  def c = "hello"  # String
+  def a = 10;      # Integer
+  def b = true;     # Boolean
+  def c = "hello"; # String
   ```
 
 ### Functions
