@@ -12,6 +12,7 @@ var builtins = map[string]*types.BuiltIn{
 		for _, arg := range args {
 			fmt.Println(arg.ToString())
 		}
+		
 		return nil, debug.NOERROR
 	}},
 	"length": {Fn: func(args ...types.ObjectJIPL) (types.ObjectJIPL, *debug.Error) {

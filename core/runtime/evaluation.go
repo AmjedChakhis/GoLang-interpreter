@@ -7,6 +7,7 @@ import (
 	"github.com/AmjedChakhis/GoLang-interpreter/core/debug"
 	"github.com/AmjedChakhis/GoLang-interpreter/core/types"
 )
+//Evaluating the parsed code
 
 func Eval(node ast.Node, ctx *types.Context) (types.ObjectJIPL, *debug.Error) {
 	switch node := node.(type) {
